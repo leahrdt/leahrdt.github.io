@@ -1,0 +1,17 @@
+.zonaDeJuego{
+    background: white;
+    text-align: center;
+    margin: 0 0 0 0;
+    border: 5px;
+    width:auto;
+    height: 500px;
+}
+#canvas {
+
+    border: solid 5px GREY;
+    background: linear-gradient(
+    0deg,
+    BLACK 0%,
+    BLACK 100%
+    );
+}

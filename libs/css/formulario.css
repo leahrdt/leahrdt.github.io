@@ -1,0 +1,91 @@
+.divForm{
+        box-sizing: border-box;
+        padding:2rem;
+        color:#ccc;
+        background-color: BLACK;
+        
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+        width: 100%;
+        height: auto;   
+        
+}
+#contact .validation{
+    overflow: hidden;
+    height: 0; /* para que vaya apareciendo el texto de completar cada ves que clickeamos en el formulario */   
+    padding: 0%;
+    margin-top: 2%;  
+}
+
+#contact .validation:last-child {
+    height: 120px; /* para que siempre al final se vea el texto de completar todas los campos */
+        overflow: hidden;
+}
+
+
+
+#contact input,
+#contact textarea,
+#contact select{ 
+
+    outline:none;/* para que cuadno hagamomos click en un formulario no aparezca la tipica linea al rededor de color negra */
+    border: solid white;
+    padding: 0.5rem;
+    border-radius: .5rem ;
+}
+#contact textarea{
+    resize: none;
+    height: 5rem;
+}
+/* validacion */
+
+.con-error{
+    background-color: red;
+}
+
+#contact :focus + .validation{/* para que muestre el texto cada ves q hago click en un formulario */
+    height: auto;
+    padding: 1rem;
+    
+}
+#contact :focus:valid{
+    border-color: yellowgreen;
+}
+#contact :focus:valid + validation {
+    color: darkgreen;
+    background-color: limegreen;
+}
+#contact :focus:invalid{
+    border-color:tomato;
+}
+
+#contact button{
+    margin-top: 1rem;
+}
+
+#contact:valid button { /*boton del formulario, si es valido*/
+    color: limegreen;
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: .5rem ;
+}
+#contact:invalid button {
+    color: tomato;
+    background-color: transparent;
+    border: 3px solid;
+}
+
+#contact button:hover{
+    text-shadow: 0 0 2px white;
+    background-color: hsl(260, 30%, 40%);
+
+}
+ 
+
+
+#labelForm{
+    padding: 44px;  
+}

@@ -1,0 +1,155 @@
+
+
+.hide {
+    display : none;
+    
+    position: fixed;
+}
+
+
+/* nav */
+.linkk{
+    margin-left:40px;
+    margin-right:40px;
+    color: black;
+    font-size: 30px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+}
+
+/* resumen cv */
+
+#mifoto{
+    padding: 1rem;
+    
+}
+#misdatos{
+    padding: 1.2rem;
+    
+    font-size: 1.3rem;
+    font-family: "Segoe UI";
+
+}
+#miNombre{
+    color:white;
+    background: black;
+}
+#iam{
+    margin-top: 5vh;
+    margin-left: -20%;
+}
+#lfr{
+    margin-left: -22%;
+    
+}
+#jsd{
+    margin-left: 22%;
+}
+#miNombreContent{
+    text-align: center;
+    background:black;
+    padding: 7%;
+    background-image: url("./assets/img/wall.jpg") ;
+    height: 92vh;
+}
+
+#about{
+    margin-top: 1%;
+    background: 
+    linear-gradient(
+        0deg,
+        black 10%
+        );
+        
+    height: auto;
+}
+
+.conAbout{
+    margin:3%;
+}
+
+.conRes{
+    margin:3% ;
+}
+
+#about{
+    color:black;
+    background: white;
+    height: auto;
+}
+
+.box-shadow-full{
+    margin-top: 1rem;
+    
+    margin-bottom: 3rem;
+    background: white;
+    padding: 2rem 1.25rem;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+#blogPart{
+    color:white;
+    margin-top: 4rem;
+    background-color: black;
+    
+    background-image: url("./assets/img/wall.jpg") ;
+    height: auto;
+    padding: 5%;
+}
+
+/* FORMULARIO */
+
+#formTitle{
+    text-align: center;
+    margin-top: 2rem;
+    
+    height: 100vh;
+}
+
+#guacamole{
+    
+    margin-top: 43vh;
+    position: absolute;
+    margin-left: 25%;
+    height: 3rem;
+    width: 50%;
+    z-index: 33;
+    text-align: center;
+}
+
+
+
+
+
+
+/* SNAKE */
+#scoreViv{
+    text-align: center;
+}
+
+#dificultad{
+    padding: 0.5rem;
+}
+/* lista Critica */
+#tituloLista{
+    align-content: center;
+}
+
+.conHalfLife{
+    margin:1%;
+}
+/* porfolio */
+
+.card-titlee{
+color:black;
+}
+
+/* TextTyping */
+
+#text{
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
