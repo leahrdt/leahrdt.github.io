@@ -66,20 +66,15 @@ class Inicio {
                     </h5>
                 </div>
                 <p class="lead" data-aos="fade-up">
-                    Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                    imperdiet et, porttitor
-                    at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                    porttitor accumsan tincidunt.
+                I am a lover of web development, computing and technology, I like to be constantly updated in these fields. Regarding front-end development, it started as a hobby which little by little became part of my daily life since it is something that I enjoy a lot, both studying and developing. 
                 </p>
                 <p class="lead" data-aos="fade-up">
-                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                    porttitor volutpat. Vestibulum
-                    ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
+                I consider myself a restless person with regard to study, I like to constantly learn new things and be updating regarding the technologies that are about to come out
+                
                 </p>
                 <p class="lead" data-aos="fade-up">
-                    Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                    Nulla porttitor accumsan
-                    tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                In the workplace I consider myself a proactive person, with the ability to constantly adapt to different challenges.
+                I highly value a good work environment and teamwork, since the constant exchange of knowledge helps us grow on a daily basis.
                 </p>
                 </div>
             </div>
@@ -112,7 +107,7 @@ class Inicio {
             <p>
             Career composed of 13 subjects. Focused on the front-end part with HTML CSS subjects and different levels of Javascript development (from basic to advanced level).
             It also provides basic and advanced knowledge with libraries such as bootstrap and material.
-            From the knowledge of the back-end we learn both basic and advanced knowledge about Node.js and MongoDB
+            From the knowledge of the back-end basic and advanced knowledge about Node.js and MongoDB are learned.
             </p>
         </div>
         <div class="resume-item" data-aos="fade-up">
@@ -120,19 +115,19 @@ class Inicio {
             postgraduate degree in seismic reservoir characterization</h4>
             <h5>2019 - 2020</h5>
             <p><em>
-            Univercity of Astronomy and Geophysics, La Plata, Arg</em></p>
-            <p>I learned theoretical and practical knowledge about seismic inversion, with practices in which we made hanging from wells in time-depth and a seismic inversion.</p>
+            University of Astronomy and Geophysics, La Plata, Arg</em></p>
+            <p>Learning of theoretical and practical knowledge on seismic inversion, with practices that included hanging of wells in time-depth and seismic inversion.</p>
         </div>
         <div class="resume-item" data-aos="fade-up">
         <h4>Specialist in hydrocarbon exploration and development</h4>
         <h5>2017 - 2019</h5>
-        <p><em>Univercity Of Natural Sciences And Museum, La Plata, Arg</em></p>
-        <p>I learned theoretical, practical and methodological knowledge in the areas of exploration and development of hydrocarbons, both from conventional and unconventional deposits. Learn generation and comprehensive project training, in their technical, operational, economic, legal, environmental and social aspects. Receive training for the development of unconventional resources and to optimize the production of mature conventional oil and gas fields.</p>
+        <p><em>University Of Natural Sciences And Museum, La Plata, Arg</em></p>
+        <p>Theoretical, practical and methodological knowledge in hydrocarbon exploration and development, both from conventional and unconventional deposits. Learning about the generation and comprehensive training of projects, in their technical, operational, economic, legal, environmental and social aspects. Training for the development of unconventional resources and optimization of the production of mature conventional oil and gas fields.</p>
         </div>
         <div class="resume-item"  data-aos="fade-up">
         <h4>GEOLOGIST</h4>
         <h5>2010 - 2016</h5>
-        <p><em>Univercity Of Natural Sciences And Museum, La Plata, Arg</em></p>
+        <p><em>University Of Natural Sciences And Museum, La Plata, Arg</em></p>
         <p>Geology is a multidisciplinary career that include mathematical, physical and chemical knowledge, applied to different areas</p>
         </div>
 
@@ -148,10 +143,10 @@ class Inicio {
             <h5>2019 - Present</h5>
             <p><em>Geoprocesados, CABA, Arg </em></p>
             <ul>
-            <li>• Carry out deterministic and probabilistic petrophysical evaluations (multimineral) in conventional and unconventional reservoirs. Electrofacies generation</li>
-            <li>• Well data quality control and laboratory data analysis. </li>
-            <li>• Editing of well logs, depth setting, well log predictions.</li>
-            <li>• Presentation of work to clients and preparation of reports.</li>
+            <li>• Deterministic and probabilistic petrophysical evaluations (multiminerals) in conventional and unconventional reservoirs. Electrofacies generation</li>
+            <li>• Quality control of well data and laboratory data analysis. </li>
+            <li>• Well log editing, depth adjustment, well log predictions.</li>
+            <li>• Preparation of reports and presentation of work to clients.</li>
             <li>Main clients and projects:
             
 </li>
@@ -168,7 +163,7 @@ Pemex: Cuenca Macuspana
           <ul>
             <li>• Control and coordination of classes, support of software management and in the preparation of final works.</li>
             <li>• Telephone, web and reception service. Correspondence management.</li>
-            <li>• Organization and filing of documentation. Drafting of various documents.</li>
+            <li>• Organization and filing documentation. Drafting documents.</li>
           </ul>
         </div>
         

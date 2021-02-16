@@ -138,6 +138,19 @@
 .conHalfLife{
     margin:1%;
 }
+
+#wBtn{
+    height: 3rem;
+}
+#sBtn{
+    height: 3rem;
+}
+#aBtn{
+height: 3rem;
+}
+#dBtn{
+    height: 3rem;
+}
 /* porfolio */
 
 .card-titlee{
