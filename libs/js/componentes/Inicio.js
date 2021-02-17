@@ -66,15 +66,14 @@ class Inicio {
                     </h5>
                 </div>
                 <p class="lead" data-aos="fade-up">
-                I am a lover of web development, computing and technology, I like to be constantly updated in these fields. Regarding front-end development, it started as a hobby which little by little became part of my daily life since it is something that I enjoy a lot, both studying and developing. 
+                I am a web development, computing and technology lover. I like to be constantly updated in these fields. Regarding front-end development, it started as a hobby which little by little became part of my daily life since it is something which I enjoy a lot, both studying and developing. 
                 </p>
                 <p class="lead" data-aos="fade-up">
-                I consider myself a restless person with regard to study, I like to constantly learn new things and be updating regarding the technologies that are about to come out
+                When it comes down to study, i consider myself a restless person. I like to learn new things all the time and be aware of the latest technologes that are about to be released.
                 
                 </p>
                 <p class="lead" data-aos="fade-up">
-                In the workplace I consider myself a proactive person, with the ability to constantly adapt to different challenges.
-                I highly value a good work environment and teamwork, since the constant exchange of knowledge helps us grow on a daily basis.
+                At workplace i consider myself a proactive person, with the ability to constantly adapt to different chanllenges. I highly value a good work enviroment and teamwork, since the continous exchange of knowledge helps us grow on a daily basis.
                 </p>
                 </div>
             </div>
@@ -105,9 +104,9 @@ class Inicio {
             <h5>2019 - 2021</h5>
             <p><em>Educacion It, CABA, Arg</em></p>
             <p>
-            Career composed of 13 subjects. Focused on the front-end part with HTML CSS subjects and different levels of Javascript development (from basic to advanced level).
-            It also provides basic and advanced knowledge with libraries such as bootstrap and material.
-            From the knowledge of the back-end basic and advanced knowledge about Node.js and MongoDB are learned.
+            full stack with node.js degree, with outstanding knowledge of HTML5, CSS3 and, more specifically, JavaScript (from basic to advanced level). Front-End perspective focused on  Angular and libraries such us React and Redux.
+            Knowledge related to libraries such as bootstrap and material.
+            Covering also a wide field from the Back-End basic yo the advanced knowledge in Node.JS and MongoDB
             </p>
         </div>
         <div class="resume-item" data-aos="fade-up">
@@ -128,7 +127,7 @@ class Inicio {
         <h4>GEOLOGIST</h4>
         <h5>2010 - 2016</h5>
         <p><em>University Of Natural Sciences And Museum, La Plata, Arg</em></p>
-        <p>Geology is a multidisciplinary career that include mathematical, physical and chemical knowledge, applied to different areas</p>
+        <p>Geology is a multidisciplinary bachellor´s degree in geology that include mathematical, physical and chemical knowledge, applied to different areas</p>
         </div>
 
 
@@ -161,9 +160,9 @@ Pemex: Cuenca Macuspana
           <h5>2018 - 2019</h5>
           <p><em>Faculty Of Natural Sciences And Museum, La Plata, Arg</em></p>
           <ul>
-            <li>• Control and coordination of classes, support of software management and in the preparation of final works.</li>
+            <li>• Control and coordination of classes, support of software management and preparation of final works.</li>
             <li>• Telephone, web and reception service. Correspondence management.</li>
-            <li>• Organization and filing documentation. Drafting documents.</li>
+            <li>• Organization and filing paperwork. Drafting documents.</li>
           </ul>
         </div>
         
