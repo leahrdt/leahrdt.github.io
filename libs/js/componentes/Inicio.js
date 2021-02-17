@@ -104,7 +104,7 @@ class Inicio {
             <h5>2019 - 2021</h5>
             <p><em>Educacion It, CABA, Arg</em></p>
             <p>
-            full stack with node.js degree, with outstanding knowledge of HTML5, CSS3 and, more specifically, JavaScript (from basic to advanced level). Front-End perspective focused on  Angular and libraries such us React and Redux.
+            Full stack with node.js degree, with outstanding knowledge of HTML5, CSS3 and, more specifically, JavaScript (from basic to advanced level). Front-End perspective focused on  Angular and libraries such us React and Redux.
             Knowledge related to libraries such as bootstrap and material.
             Covering also a wide field from the Back-End basic yo the advanced knowledge in Node.JS and MongoDB
             </p>
