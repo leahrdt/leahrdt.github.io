@@ -205,7 +205,7 @@ Pemex: Cuenca Macuspana
 
                 </div>
                 <h3 class="card-titlee">Javascript Projects</h3>
-                <h4 class="card-title"><a href="https://leahrdt.github.io/miApp.html">This Web</a></h4>
+                <h4 class="card-title"><a href="">This Web</a></h4>
               </div>
               <div class="card-footer">
                 <div class="post-author">
