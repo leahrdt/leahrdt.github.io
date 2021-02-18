@@ -40,41 +40,14 @@ class formOpinion extends Observable{
 
   enviar(e) { 
     e.preventDefault();
-    //console.dir(this);
-    console.log("asdasdas")
     let areaResenia = this.form.elements.resenia;
     let cboTipo = this.form.elements.tipo;
     
     let miResenia = new Resenia(areaResenia.value, cboTipo.value);
-    console.log(miResenia, this.titulo);
-    // fetch
-    // localStorage
-    
-    //compoListaBuenas.agregar(miResenia); // acoplamiento
+    // console.log(miResenia, this.titulo);
     this.notify(cboTipo.value, miResenia);
 
     this.form.reset();
   }
 
 }
-
-/*
-
-function addEventListener(evento, callback){
-
-//evento = "submit"
-//callback = function(e){ ... this ... }
-
-  //this = nodo form
-
-  // escuchando evento "submit" para this
-  let objetoEvento = { 
-    target: un_nodo
-    ...
-  }
-  callback.call(this, objetoEvento);
-
-}
-
-
-*/

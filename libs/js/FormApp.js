@@ -39,22 +39,18 @@ formRegistro.addEventListener("submit", e => {
 
 function blurControl(nodo, validacion){
   if(validacion(nodo.value)){
-    //nodo.nextElementSibling.classList.add("todo-ok"); 
     nodo.classList.remove("con-error");
   }
   else{
-    //nodo.nextElementSibling.classList.remove("todo-ok");
     nodo.classList.add("con-error");
   }
 }
 
 function blurCheck(nodo){
   if(validarCheckbox(nodo)){
-    //nodo.nextElementSibling.nextElementSibling.classList.add("xxxxx");
     nodo.classList.remove("con-error");
   }
   else{
-    //nodo.nextElementSibling.nextElementSibling.classList.remove("xxxxx");
     nodo.classList.add("con-error");
   }
 }

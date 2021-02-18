@@ -1,9 +1,6 @@
 class Inicio {
-    constructor({elemRoot, titulo=""}){
+    constructor({elemRoot, }){
         this.elemRoot = elemRoot;
-        this.titulo = titulo
-        this.items = [];
-
 
         this.render();
     }
@@ -86,7 +83,7 @@ class Inicio {
 </div>
 
 <div id="resume">
-<!-- ======= Resume Section ======= -->
+<!-- ======= Resume  ======= -->
 <section  class="resume">
   <div class="conRes container-md">
 
@@ -178,7 +175,8 @@ Pemex: Cuenca Macuspana
 
 <div id="blogPart">
 
-<!-- ======= Blog Section ======= -->
+<!-- ======= Blog  ======= -->
+
     <section id="blog" class="blog-mf sect-pt4 route">
       <div class="container">
         <div class="row">

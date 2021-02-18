@@ -6,7 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="libs/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
@@ -16,34 +15,12 @@
 
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-
   <link href="assets/css/style.css" rel="stylesheet">
-      
-        
+
   <title>cvJS_Vanilla</title>
 </head>
 
 <body>
-  
-<!-- <nav class="navbar navbar-dark sticky-top navbar-expand-lg justify-content-center "  style="background-color: black">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link active"data-tab-for="content-1"  href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"data-tab-for="content-2" href="#">Formulario</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"data-tab-for="content-3" href="#">Snake</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-tab-for="content-4"href="#">Critica</a>
-      </li>
-    </ul>
-</nav> -->
 <nav class="navbar navbar-dark sticky-top  navbar-expand-lg " style="background-color: black">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -66,117 +43,62 @@
 
   </div>
 </nav>
-
-<!-- <header id="header">
-  <div id="elh1" class="header">
-    
-    <h1 class="display-4" id="elh1" >
-        <a class="nav-link "data-tab-for="content-1"  href="#">Home</a>
-    </h1>
-  </div>
-  <nav>
-    <button id="menu">&equiv;</button>
-    <ul class="menu">
-      <li class="nav-item">
-        <a class="nav-link"data-tab-for="content-1" href="#">CV</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"data-tab-for="content-2" href="#">Formulario</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"data-tab-for="content-3" href="#">Snake</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-tab-for="content-4"href="#">Critica</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-tab-for="content-4"href="#">App CV</a>
-      </li>
-    </ul>
-  </nav>
-</header> -->
-
-
-
-
     <!------------ BLOG -------------->
-    
-  <div class="content">
-    <div id="content-1">
-      <div id="wallpaper">
-        
-        
-        <div id="miNombre">
+<div class="content">
+  <div id="content-1">
+  <div id="wallpaper">
+    <div id="miNombre">
           <div id="miNombreContent">
-          <h4 data-aos="fade-in" id="iam"  data-aos-delay="150" class="display-3" >  I'm </h4>
-
-              <h1 data-aos="fade-right" id="lfr" data-aos-delay="550" class="display-4"   >Leandro Fernandez Reinhardt</h1>
-              <h3 data-aos="fade-left" id="jsd" data-aos-delay="350" class="display-4"   ><span class="typed" data-typed-items="Front-End Developer, JavaScript Developer, Web Designer"></span></h3>
-              
-</div>
-</div>
-
+            <h4 data-aos="fade-in" id="iam"  data-aos-delay="150" class="display-3" >  I'm </h4>
+            <h1 data-aos="fade-right" id="lfr" data-aos-delay="550" class="display-4"   >Leandro Fernandez Reinhardt</h1>
+            <h3 data-aos="fade-left" id="jsd" data-aos-delay="350" class="display-4"   ><span class="typed" data-typed-items="Front-End Developer, JavaScript Developer, Web Designer"></span></h3>
+          </div>
+    </div>
       <section id="Inicio">
       </section>
-    </div>
-    </div>
-    
-
-
+  </div>
+</div>
     <!------------ FORMULARIO -------------->
-    <div id="content-2" class="hide">
-      
-      <section id="Formulario"></section>
-      
-    </div>
+<div id="content-2" class="hide">
+  <section id="Formulario"></section>
+</div>
 
     <!------------ SNAKE -------------->
-    <br>
-    <div id="content-3" class="zonaDeJuego hide">
-
+  <br>
+<div id="content-3" class="zonaDeJuego hide">
       <div class="container">
       <div class="row">
       <div class="col-md-3 col-12" >
         <h2 class="display-3">SCORE</h2>
         <p id="scoreViv" class="display-3 "></p>
-
       </div>
-
       <canvas id="canvas" width="350" height="360" class="container col-md-6 col-12"></canvas>
-
-
       <div class="col-md-3 col-12">
-        
         <h2 class="display-4">Controles</h2>
-      
         <div class="container">
         <div class="row">
       <button id="wBtn" class=" col-12">↑ W ↑</button>
-
       <button id="aBtn" class=" col-6">← A ←</button>
       <button id="dBtn" class=" col-6">→ D →</button>
-      
       <button id="sBtn" class=" col-12">↓ S ↓</button>
-    </div>
-  </div>
+        </div>
+        </div>
       <div id="dificultad">
-        
         <h2 class="display-4">Dificultad</h2>
-        
-      <button id="facBtn">Facil</button>
-      <button id="intBtn">Intermedia</button>
-      <button id="difBtn">Dificil</button>
+        <button id="facBtn">Facil</button>
+        <button id="intBtn">Intermedia</button>
+        <button id="difBtn">Dificil</button>
       </div>
     </div>
     </div>
   </div>
-    </div>
+</div>
 
     <!------------ OPINION -------------->
-    <div id="content-4" class="zonaDeJuego hide">
-      <div class="col-12"></div>
-      <br>
-      <div class="conHalfLife container-md">
+<div id="content-4" class="zonaDeJuego hide">
+  <div class="col-12"></div>
+  <br>
+  <div class="conHalfLife container-md">
     <section style="display: flex">
       <div class="row">
         <div class="col-md-3 col-12">
@@ -192,10 +114,8 @@
         </div>
       </div>
       </div>
-        
     </section>
     <section id="formOpinion"></section>
-
     <div class="row">
     <section id="listadoBuenas" class="lista col-4" ></section>
     <section id="listadoRegular" class="lista col-4"></section>
@@ -204,9 +124,9 @@
   </div>
 </div>
 
-
-
 </div>
+
+    <!------------ SCRIPTS -------------->
   <script src="libs/js/jquery-3.3.1.slim.min.js"></script>
   <script src="libs/js/popper.min.js"></script>
   <script src="libs/js/bootstrap.min.js"></script>
@@ -218,7 +138,6 @@
   <script src="libs/js/componentes/Resenia.js"></script>
   <script src="libs/js/componentes/Inicio.js"></script>
 
-   <!-- Vendor JS Files -->
    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
    <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -227,17 +146,14 @@
    <script src="assets/vendor/typed.js/typed.min.js"></script>
    
   <script src="assets/vendor/aos/aos.js"></script>
-   <!-- Template Main JS File -->
    <script src="assets/js/main.js"></script>
   
   <script src="libs/js/snake.js"></script>
-  
   
   <script src="libs/js/App.js"></script>
   
   <script src="libs/js/formValidaciones.js"></script>
   <script src="libs/js/FormApp.js"></script>
-  <script src="libs/js/typeText.js"></script>
   
   
   <script src="spa.js"></script>

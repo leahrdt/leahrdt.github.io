@@ -3,10 +3,6 @@ class Listado {
     this.elemRoot = elemRoot;
     this.titulo = titulo
     this.items = [];
-    /*this.items = [
-      { resenia: "Linda", clasificacion: "buena" },
-      { resenia: "maso", clasificacion: "regular" }
-    ];*/
     this.render();
   }
   render(){

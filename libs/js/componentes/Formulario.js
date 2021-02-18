@@ -1,21 +1,15 @@
 class Formulario extends Observable{
-  constructor({titulo, textoEnviar="Enviar", elemRoot}) {
+  constructor({elemRoot}) {
     super();
-    this.titulo = titulo;
     this.elemRoot = elemRoot;
-    this.textoEnviar = textoEnviar;
 
     this.render();
-    this.form = elemRoot.querySelector("form");
-    this.form.addEventListener("submit", this.enviar.bind(this));
+
   }
 
   render() {
     this.elemRoot.innerHTML = `
   
-
-
-    
     <div class="container-fluid">
     <div class="row">
     
@@ -24,11 +18,10 @@ class Formulario extends Observable{
 
     </div>
 
-
     <div class="divForm col-md-7 col-12">
     <form  id="contact" action="" name="registro" method:"post" >
 
-    <label class="labelForm" for="contactName">Nombre *</label>
+    <label class="labelForm" for="contactName">Nombre * </label>
     <input 
     id="contactName"
     name= "contactName"
@@ -99,28 +92,4 @@ class Formulario extends Observable{
 
     `;
   }
-
-
-
 }
-
-/*
-
-function addEventListener(evento, callback){
-
-//evento = "submit"
-//callback = function(e){ ... this ... }
-
-  //this = nodo form
-
-  // escuchando evento "submit" para this
-  let objetoEvento = { 
-    target: un_nodo
-    ...
-  }
-  callback.call(this, objetoEvento);
-
-}
-
-
-*/

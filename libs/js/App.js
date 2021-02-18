@@ -2,6 +2,8 @@ let compoListaBuenas;
 let compoListaRegular;
 let compoListaMalas;
 
+//JS GENERAL DE LA WEB, TANTO INICIO, COMO FORMULARIO Y LA SECCIÓN DE "CRITICA" ESTAN HECHAS CON OBJETOS EXTERNOS. LA IDEA ES APLICAR LA POO
+
 (function(){
 
   const compoInicio = new Inicio({
@@ -50,7 +52,6 @@ let compoListaMalas;
 
   const compoForma = new Formulario({
     elemRoot: document.getElementById("Formulario"),
-    titulo: "Cuentanos..."
   });
 
 

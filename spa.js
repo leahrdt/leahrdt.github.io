@@ -1,6 +1,5 @@
 let openMenu = false;
 
-
 var tabs = document.querySelectorAll('a[data-tab-for]') 
 var contenidos = document.querySelectorAll('.content > div') 
 
@@ -13,28 +12,29 @@ window.addEventListener('popstate',evento => {
     }
 })
 
-document.querySelector("#menu").addEventListener("click", () => {
-    if (openMenu)  //si openMenu == true
-        {document.querySelector(".menu").classList.add('openMenu'); //agrega la clase openMenu al menu.
-        openMenu = false;} //cambia el valor de la variable a false, para la proxima q le haga click haga el else
-    else 
-        {document.querySelector(".menu").classList.remove('openMenu'); 
-        openMenu = true;}
-})
+//-- (SI ESTAS REVISANDO EL CODIGO.. : ESTE CODIGO ESTA COMENTADO YA QUE FUNCIONARIA ESTANDO CONECTADO A UN SERVIDOR, EN GITHUB PAGES ME DA ERROR.
+// document.querySelector("#menu").addEventListener("click", () => {
+//     if (openMenu)  //si openMenu == true
+//         {document.querySelector(".menu").classList.add('openMenu'); 
+//         openMenu = false;} 
+//     else 
+//         {document.querySelector(".menu").classList.remove('openMenu'); 
+//         openMenu = true;}
+// })
 
 
-history.replaceState({ 
-    tabFor: tabs[0].dataset.tabFor
-},null, 'tab-'+tabs[0].dataset.tabFor)
+// history.replaceState({ 
+//     tabFor: tabs[0].dataset.tabFor
+// },null, 'tab-'+tabs[0].dataset.tabFor)
 
 function mostrarContenido(evento) {
     evento.preventDefault()
     var id_contenido = evento.target.dataset.tabFor 
-    console.log(id_contenido)
+    console.log("Es una web SPA, ud esta accediendo al " + id_contenido)
     administrarParrafos(id_contenido)
-    window.history.pushState({ 
-        tabFor: id_contenido 
-    },null,'tab-' + id_contenido) 
+    // window.history.pushState({ 
+    //     tabFor: id_contenido 
+    // },null,'tab-' + id_contenido) 
 }   
 
 function administrarParrafos(id_contenido){
@@ -54,7 +54,4 @@ function administrarParrafos(id_contenido){
         }
     })
 }
-
-//-------------------------efect Typing
-
 

@@ -1,10 +1,5 @@
 class Observable {
   topics = {}
-  /*topics = {
-    envieBuena: [f,f,f,f],
-    envieMala: [f,f],
-    envieRegular: [f,f,f]
-  }*/
   
   subscribe(topic, observable){
     if(topic in this.topics == false){
@@ -24,6 +19,7 @@ class Observable {
   }
 }
 
+//OBSERV V1
 /*class Observable {
   observadores = []
   
