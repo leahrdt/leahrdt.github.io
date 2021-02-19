@@ -208,7 +208,6 @@ Pemex: Cuenca Macuspana
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
                     <span class="author">Leandro Fernandez</span>
                   </a>
                 </div>
@@ -231,7 +230,6 @@ Pemex: Cuenca Macuspana
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
                     <span class="author">Leandro Fernandez</span>
                   </a>
                 </div>
@@ -254,7 +252,6 @@ Pemex: Cuenca Macuspana
               <div class="card-footer">
                 <div class="post-author">
                   <a href="#">
-                    <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
                     <span class="author">Leandro Fernandez</span>
                   </a>
                 </div>
