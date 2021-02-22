@@ -63,10 +63,10 @@ class Inicio {
                     </h5>
                 </div>
                 <p class="lead" data-aos="fade-up">
-                I am a web development, computing and technology lover. I like to be constantly updated in these fields. Regarding front-end development, it started as a hobby which little by little became part of my daily life since it is something which I enjoy a lot, both studying and developing. 
+                I am a web development, computing and technology lover. I like to be constantly updated in these fields. Regarding front-end development, it started as a hobby which gradually became part of my daily life because it is something that I enjoy a lot, both studying and developing. 
                 </p>
                 <p class="lead" data-aos="fade-up">
-                When it comes down to study, i consider myself a restless person. I like to learn new things all the time and be aware of the latest technologes that are about to be released.
+                When it comes down to study, I consider myself a restless person. I like to learn new things all the time and be aware of the latest technologes that are about to be released.
                 
                 </p>
                 <p class="lead" data-aos="fade-up">
