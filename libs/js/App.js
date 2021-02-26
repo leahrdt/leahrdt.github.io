@@ -56,3 +56,13 @@ let compoListaMalas;
 
 
 })();
+
+  // (function(){
+
+  //   const compoGame = new KeyGame({
+  //     elemRoot: document.getElementById("KeyGame"),
+  //   });
+
+
+  // })()
+;
