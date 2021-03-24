@@ -13,6 +13,7 @@ class formOpinion extends Observable{
 
   render() {
     this.elemRoot.innerHTML = `
+
     <form>
         <h2>¿Qué te pareció?</h2>
         <label >
@@ -32,10 +33,11 @@ class formOpinion extends Observable{
             </div>
             <div class="col-1">
         </label>
-        <button>${this.textoEnviar}</button>
+        <button  class="btn btn-success">${this.textoEnviar}</button>
         </div>
         </div>
-    </form>`;
+    </form>
+    `;
   }
 
   enviar(e) { 

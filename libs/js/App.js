@@ -53,16 +53,19 @@ let compoListaMalas;
   const compoForma = new Formulario({
     elemRoot: document.getElementById("Formulario"),
   });
+  
 
 
 })();
 
-  // (function(){
+(function(){
 
-  //   const compoGame = new KeyGame({
-  //     elemRoot: document.getElementById("KeyGame"),
-  //   });
+  const listaLocalSorage = new ListaLocalS({
+    elemRoot: document.getElementById("ListaLocalS"),
+  });
 
 
-  // })()
+})();
+
+
 ;

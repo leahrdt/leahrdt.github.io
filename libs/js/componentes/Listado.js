@@ -7,7 +7,8 @@ class Listado {
   }
   render(){
     this.elemRoot.innerHTML = `
-    <h2 id="tituloLista" class=" display-4 ">${this.titulo}</h2>
+    <br>
+    <h2 id="tituloLista" class="display-4 ">${this.titulo}</h2>
     <ul>
     ${
       this.items.map(

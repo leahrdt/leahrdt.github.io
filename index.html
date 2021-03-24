@@ -37,8 +37,12 @@
         <a class="linkk nav-link"data-tab-for="content-3" href="#">Snake</a>
       </li>
       <li class="nav-item">
+        <a class="linkk nav-link" data-tab-for="content-5"href="#">Lista</a>
+      </li>
+      <li class="nav-item">
         <a class="linkk nav-link" data-tab-for="content-4"href="#">Critica</a>
       </li>
+
     </ul>
 
   </div>
@@ -97,7 +101,8 @@
     <!------------ OPINION -------------->
 <div id="content-4" class="zonaDeJuego hide">
   <div class="col-12"></div>
-  <br>
+  <h1 class="display-4">tu Crítica</h1>
+  <p class="lead">Web diseñada con diferentes componentes, los cuales se comunican entre sí a través del patrón pub-sub</p>
   <div class="conHalfLife container-md">
     <section style="display: flex">
       <div class="row">
@@ -124,12 +129,14 @@
   </div>
 </div>
 
+    <!------------ LISTA LOCALSTORAGE -------------->
+    <div id="content-5" class="hide">
+      <section id="ListaLocalS"></section>
+    </div>
+
 </div>
 
-    <!------------ KEY GAME -------------->
-    <div id="content-5" class="hide">
-      <section id="KeyGame"></section>
-    </div>
+
 
     <!------------ SCRIPTS -------------->
   <script src="libs/js/jquery-3.3.1.slim.min.js"></script>
@@ -142,6 +149,7 @@
   <script src="libs/js/componentes/Listado.js"></script>
   <script src="libs/js/componentes/Resenia.js"></script>
   <script src="libs/js/componentes/Inicio.js"></script>
+  <script src="libs/js/componentes/ListaLocalS.js"></script>
 
    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -156,8 +164,10 @@
   <script src="libs/js/snake.js"></script>
 
 
-  
   <script src="libs/js/App.js"></script>
+
+  
+  <script src="libs/js/carrito.js"></script>
   
   <script src="libs/js/formValidaciones.js"></script>
   <script src="libs/js/FormApp.js"></script>
